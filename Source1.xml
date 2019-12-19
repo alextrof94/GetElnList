@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+        xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <soapenv:Header>
+         <wsse:Security soapenv:actor="http://eln.fss.ru/actor/insurer/{OGRN}">
+             <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                 <ds:KeyInfo>
+                     <wsse:SecurityTokenReference>
+                         <wsse:Reference URI="#SenderCertificate"/>
+                     </wsse:SecurityTokenReference>
+                 </ds:KeyInfo>
+             </ds:Signature>
+             <wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary"
+                       ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"
+                       wsu:Id="SenderCertificate">
+             </wsse:BinarySecurityToken>
+         </wsse:Security>
+	</soapenv:Header>
+	<soapenv:Body wsu:Id="REGNO_{OGRN}">
+		<fil:getPrivateLNData xmlns:fil="http://ru/ibs/fss/ln/ws/FileOperationsLn.wsdl">
+			<fil:regNum></fil:regNum>
+			<fil:lnCode></fil:lnCode>
+			<fil:snils></fil:snils>
+		</fil:getPrivateLNData>
+	</soapenv:Body>
+</soapenv:Envelope>
+

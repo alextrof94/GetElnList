@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header>
+	</soapenv:Header>
+	<soapenv:Body>
+<xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+			Type="http://www.w3.org/2001/04/xmlenc#Content" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+			xmlns:sch="http://gost34.ibs.ru/WrapperService/Schema"
+			xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+			xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+			<xenc:EncryptionMethod
+				Algorithm="urn:ietf:params:xml:ns:cpxmlsec:algorithms:gost28147" />
+			<ds:KeyInfo>
+				<xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+					<xenc:EncryptionMethod
+				Algorithm="urn:ietf:params:xml:ns:cpxmlsec:algorithms:transport-gost2001" />
+					<ds:KeyInfo>
+						<ds:X509Data>
+							<ds:X509Certificate></ds:X509Certificate>							
+						</ds:X509Data>
+					</ds:KeyInfo>
+					<xenc:CipherData>
+						<xenc:CipherValue></xenc:CipherValue>
+                                        </xenc:CipherData>
+				</xenc:EncryptedKey>
+			</ds:KeyInfo>
+			<xenc:CipherData>
+				<xenc:CipherValue></xenc:CipherValue>
+			</xenc:CipherData>
+		</xenc:EncryptedData>
+
+
+	</soapenv:Body>
+</soapenv:Envelope>
