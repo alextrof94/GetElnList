@@ -1,0 +1,16 @@
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\GetElnList.exe.config
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\GetElnList.exe
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\GetElnList.pdb
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\obj\Debug\GetElnList.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\obj\Debug\GetElnList.Form1.resources
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\obj\Debug\GetElnList.Properties.Resources.resources
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\obj\Debug\GetElnList.csproj.GenerateResource.Cache
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\obj\Debug\GetElnList.exe
+c:\users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\obj\Debug\GetElnList.pdb
+C:\Users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\CryptoPro.Sharpei.Base.dll
+C:\Users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\CryptoPro.Sharpei.Xml.dll
+C:\Users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\CryptoPro.Sharpei.Base.xml
+C:\Users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\CryptoPro.Sharpei.Xml.xml
+C:\Users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\obj\Debug\GetElnList.foView.resources
+C:\Users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\CryptoPro.Sharpei.ServiceModel45.dll
+C:\Users\alex\documents\visual studio 2017\Projects\GetElnList\GetElnList\bin\Debug\CryptoPro.Sharpei.ServiceModel45.xml
